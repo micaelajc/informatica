@@ -6,3 +6,10 @@
   .uses-collage .mock-label{left:50%;bottom:-31px;transform:translateX(-50%);width:max-content;padding:3px 6px;border-radius:999px;background:#f5eee7;font-size:7px;letter-spacing:.08em;z-index:2}
 }
 @media(max-width:360px){.nav-cta{padding:10px 12px;font-size:10px}.brand-name{font-size:13px}.brand{gap:8px}.hero h1{font-size:46px}.hero-art{height:280px}.option-card{padding:15px 12px}.order-form{padding-inline:15px}}
+
+/* Keep the product captions on separate rows on narrow phone screens. */
+@media(max-width:600px){
+  .uses-collage{height:350px;margin-bottom:0}
+  .uses-collage .mockup-bottle .mock-label{bottom:-25px}
+  .uses-collage .mockup-notebook .mock-label{bottom:-52px}
+}
